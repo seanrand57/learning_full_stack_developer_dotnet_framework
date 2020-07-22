@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learning_full_stack_developer_dotnet_framework", "learning_full_stack_developer_dotnet_framework\learning_full_stack_developer_dotnet_framework.csproj", "{4B098DE2-6814-4F67-8561-A5139CC19B93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learning_full_stack_developer_dotnet_framework.Tests", "learning_full_stack_developer_dotnet_framework.Tests\learning_full_stack_developer_dotnet_framework.Tests.csproj", "{D97C0605-F387-4B2D-B242-0334684C0E97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B098DE2-6814-4F67-8561-A5139CC19B93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B098DE2-6814-4F67-8561-A5139CC19B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B098DE2-6814-4F67-8561-A5139CC19B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B098DE2-6814-4F67-8561-A5139CC19B93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D97C0605-F387-4B2D-B242-0334684C0E97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D97C0605-F387-4B2D-B242-0334684C0E97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D97C0605-F387-4B2D-B242-0334684C0E97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D97C0605-F387-4B2D-B242-0334684C0E97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41E35C1F-6B36-4CC5-92F5-EE9961D29BA9}
+	EndGlobalSection
+EndGlobal
