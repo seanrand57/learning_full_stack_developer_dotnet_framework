@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using learning_full_stack_developer_dotnet_framework.Models;
 
 namespace learning_full_stack_developer_dotnet_framework.ViewModels
