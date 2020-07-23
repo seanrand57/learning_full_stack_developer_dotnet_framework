@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using learning_full_stack_developer_dotnet_framework.Models;
 
 namespace learning_full_stack_developer_dotnet_framework.ViewModels
@@ -10,5 +11,7 @@ namespace learning_full_stack_developer_dotnet_framework.ViewModels
         public string Time { get; set; }
         public int Genre { get; set; }
         public IEnumerable<Genre> Genres { get; set; }
+
+        public DateTime DateTime => DateTime.Parse($"{Date} {Time}");
     }
 }
