@@ -79,6 +79,10 @@ namespace learning_full_stack_developer_dotnet_framework.Models
         [Display(Name = "Confirm password")]
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
+
+        [Required]
+        [StringLength(50)]
+        public string Name { get; set; }
     }
 
     public class ResetPasswordViewModel

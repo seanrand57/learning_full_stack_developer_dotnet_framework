@@ -19,6 +19,7 @@ namespace learning_full_stack_developer_dotnet_framework.Controllers
         {
             var upcomingGigs = _context.Gigs
                 .Include(g => g.Artist)
+                .Include(g => g.Genre)
                 .Where(g => g.DateTime > DateTime.Now);
 
 
