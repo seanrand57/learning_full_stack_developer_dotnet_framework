@@ -15,7 +15,7 @@ namespace learning_full_stack_developer_dotnet_framework.ViewModels
 
         [Required] public int Genre { get; set; }
 
-        [Required] public IEnumerable<Genre> Genres { get; set; }
+        public IEnumerable<Genre> Genres { get; set; }
 
         public DateTime GetDateTime()
         {
