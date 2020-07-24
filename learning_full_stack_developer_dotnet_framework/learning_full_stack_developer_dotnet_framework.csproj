@@ -208,9 +208,14 @@
     <Compile Include="Migrations\202007241643318_ExtendingApplicationUser.Designer.cs">
       <DependentUpon>202007241643318_ExtendingApplicationUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202007241800420_AddingAttendance.cs" />
+    <Compile Include="Migrations\202007241800420_AddingAttendance.Designer.cs">
+      <DependentUpon>202007241800420_AddingAttendance.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
+    <Compile Include="Models\Attendance.cs" />
     <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\Gig.cs" />
     <Compile Include="Models\ApplicationUser.cs" />
@@ -418,6 +423,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202007241643318_ExtendingApplicationUser.resx">
       <DependentUpon>202007241643318_ExtendingApplicationUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202007241800420_AddingAttendance.resx">
+      <DependentUpon>202007241800420_AddingAttendance.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
